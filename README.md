@@ -1,2 +1,10 @@
 # hammond-org-decision-making
 This model replicates Hammond (1986), theoretically illustrating that organisational behaviour is shaped neither solely by organisational structures nor by individual agency, but by the interaction between the two.
+
+This model is intended to replicate the work of Hammond (1986), which illustrates theoretically that organisational behaviour does not derive solely from the design of organisational structures, nor is it completely dependent on agency (i.e., the strategic behaviour of bureaucrats working within an organisation). Rather, organisational behaviour results from the interplay of structure and agency. 
+
+Hammond’s work advances a series of propositions, some of which are developed through thought experiments analogous to the workings of theoretical agent-based models but conducted with “pen and paper” rather than through in silico experimentation. Although this approach yields insights that remain relevant today, its ‘manual’ nature limits the number and complexity of simulations that can be conducted. This makes it difficult to estimate the likelihood of different outcomes, analyse interactions among complex organisations, and systematically explore a wide range of conditions. This study addresses these limitations by translating Hammond’s theory into an Agent-Based Model (ABM) and verifying its implementation through the successful replication of his core propositions.
+
+The resulting model provides the foundation for a subsequent theoretical model designed to systematically explore the parameter space. Future research using this model will enable a more thorough investigation of Hammond’s theory and provide a basis for extending, and potentially challenging, the theoretical propositions he introduced.
+
+<img width="468" height="380" alt="image" src="https://github.com/user-attachments/assets/006b44fd-9995-4e03-ad05-796a19ab4238" />
