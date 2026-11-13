@@ -11,7 +11,7 @@ The resulting model provides the foundation for a subsequent theoretical model d
 3. Choose which Hammond experiment to replicate via the "Replicate-hammond-experiment" drop-down list. 
 4. Load the experiment with the "Load-Hammond-experiment" button. The software will upload the experiment from the "Data" folder. 
 5. Run the simulation with "go-hammond-experiments"
-6. The results are saved in the "Results folder; previously existing results are overwritten
+6. The results are saved in the "Results folder". Previously existing results are overwritten.
 
 ## System requirements
 Runs on NetLogo 6.4
