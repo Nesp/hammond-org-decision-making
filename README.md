@@ -7,7 +7,7 @@ The resulting model provides the foundation for a subsequent theoretical model d
 
 ## Instruction for use
 1. Download "Hammond-org-decision-making-v1.0.0"
-2. Navigate to "code"
+2. Navigate to "code" and open the file with extension ".nlogo".
 3. Choose which Hammond experiment to replicate via the "Replicate-hammond-experiment" drop-down list. 
 4. Load the experiment with the "Load-Hammond-experiment" button. The software will upload the experiment from the "Data" folder. 
 5. Run the simulation with "go-hammond-experiments"
