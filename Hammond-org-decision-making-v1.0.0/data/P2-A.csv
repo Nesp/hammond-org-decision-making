@@ -1,0 +1,28 @@
+﻿proposition-tested,1,,,,,,
+jurisdictions-type,full-sets-of-options,,,,,,
+decision-rule-managers,management-by-exceptions,,,,,,
+org-size,7,,,,,,
+span-of-control,2,,,,,,
+agent-behaviour,strategic,,,,,,
+decision-space,"""w x y z""",,,,,,
+Experiments #,2,,,,,,
+,,,,,,,
+Start-1,,,,,,,
+agents,Operator-1,Operator-2,Operator-3,Operator-4,Manager-1,Manager-2,Director
+agent-preferences,w x y z,x z w y ,y x z w ,z w x y ,y x z w ,y z w x ,w x y z 
+agent-position,Manager-1; 2; 0,Manager-1; 2; 1,Manager-2; 2; 2,Manager-2; 2; 3,Director; 1; 0,Director; 1; 1,nobody; 0; 0
+agent-jurisdiction,x y w z,x y w z,x y w z,x y w z,subs,subs,subs
+agent-behaviour,strategic,sincere,sincere,sincere,sincere,sincere,sincere
+End-1,,,,,,,
+,,,,,,,
+Start-2,,,,,,,
+agents,Operator-1,Operator-2,Operator-3,Operator-4,Manager-1,Manager-2,Director
+agent-preferences,w x y z,x z w y ,y x z w ,z w x y ,y x z w ,y z w x ,w x y z 
+agent-position,Manager-2; 2; 2,Manager-1; 2; 1,Manager-1; 2; 0,Manager-2; 2; 3,Director; 1; 0,Director; 1; 1,nobody; 0; 0
+agent-jurisdiction,x y w z,x y w z,x y w z,x y w z,subs,subs,subs
+agent-behaviour,strategic,sincere,sincere,sincere,sincere,sincere,sincere
+End-2,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,

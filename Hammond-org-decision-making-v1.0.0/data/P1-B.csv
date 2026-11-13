@@ -1,0 +1,59 @@
+﻿proposition-tested,1,,,,
+jurisdictions-type,policy-dimensions,,,,
+Decision-rule,preferences-for-plans,managers decide based on preferences among available options ,,,
+org-size,5,,,,
+span-of-control,variable,,,,
+agent-behaviour,sincere,,,,
+decision-space,"W (w1,  w2), Y (y1, y2), X (x1, x2)",,,,
+Experiments #,4,,,,
+,,,,,
+start-possible-plans,,,,,
+1,w1; x1; y1; z1,,,,
+2,w1; x1; y1; z2,,,,
+3,w1; x1; y2; z1,,,,
+4,w1; x1; y2; z2,,,,
+5,w1; x2; y1; z1,,,,
+6,w1; x2; y1; z2,,,,
+7,w1; x2; y2; z1,,,,
+8,w1; x2; y2; z2,,,,
+9,w2; x1; y1; z1,,,,
+10,w2; x1; y1; z2,,,,
+11,w2; x1; y2; z1,,,,
+12,w2; x1; y2; z2,,,,
+13,w2; x2; y1; z1,,,,
+14,w2; x2; y1; z2,,,,
+15,w2; x2; y2; z1,,,,
+16,w2; x2; y2; z2,,,,
+end-possible-plans,,,,,
+,,,,,
+Start-1,,,,,
+agents,Operator-1,Operator-2,Operator-3,Manager,Director
+agent-preferences,13 8 3 12 16 1 6 10 11 5 2 15 7 9 4 14,2 12 16 6 8 3 10 14 4 1 5 11 13 15 9 7,11 4 1 8 12 16 13 6 3 9 14 7 2 5 10 15,1 4 8 13 6 9 15 11 3 16 5 2 7 10 14 12,NA
+agent-position,Manager; 2; 0,Manager; 2; 1,Director; 2; 2,Director; 1; 0,nobody; 0; 0
+agent-jurisdiction,W,X,Y,Z,subs
+agent-behaviour,sincere,sincere,sincere,sincere,sincere
+End-1,,,,,
+,,,,,
+Start-2,,,,,
+agents,Operator-1,Operator-2,Operator-3,Manager,Director
+agent-preferences,13 8 3 12 16 1 6 10 11 5 2 15 7 9 4 14,2 12 16 6 8 3 10 14 4 1 5 11 13 15 9 7,11 4 1 8 12 16 13 6 3 9 14 7 2 5 10 15,1 4 8 13 6 9 15 11 3 16 5 2 7 10 14 12,NA
+agent-position,Director; 2; 0,Manager; 2; 1,Manager; 2; 2,Director; 1; 1,nobody; 0; 0
+agent-jurisdiction,W,X,Y,Z,subs
+agent-behaviour,sincere,sincere,sincere,sincere,sincere
+End-2,,,,,
+,,,,,
+Start-3,,,,,
+agents,Operator-1,Operator-2,Operator-3,Manager,Director
+agent-preferences,13 8 3 12 16 1 6 10 11 5 2 15 7 9 4 14,2 12 16 6 8 3 10 14 4 1 5 11 13 15 9 7,11 4 1 8 12 16 13 6 3 9 14 7 2 5 10 15,1 4 8 13 6 9 15 11 3 16 5 2 7 10 14 12,NA
+agent-position,Manager; 2; 0,Manager; 2; 1,Director; 2; 2,Director; 1; 0,nobody; 0; 0
+agent-jurisdiction,W,Y,X,Z,subs
+agent-behaviour,sincere,sincere,sincere,sincere,sincere
+End-3,,,,,
+,,,,,
+Start-4,,,,,
+agents,Field-Op-1,Field-Op-2,Field-Op-3,Manager,Director
+agent-preferences,13 8 3 12 16 1 6 10 11 5 2 15 7 9 4 14,2 12 16 6 8 3 10 14 4 1 5 11 13 15 9 7,11 4 1 8 12 16 13 6 3 9 14 7 2 5 10 15,1 4 8 13 6 9 15 11 3 16 5 2 7 10 14 12,NA
+agent-position,Manager; 2; 0,Manager; 2; 1,Director; 2; 2,Director; 1; 0,nobody; 0; 0
+agent-jurisdiction,Z,X,Y,W,subs
+agent-behaviour,sincere,sincere,sincere,sincere,sincere
+End-3,,,,,

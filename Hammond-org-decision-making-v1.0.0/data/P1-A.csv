@@ -1,0 +1,32 @@
+﻿proposition-tested,1,,,,,,
+jurisdictions-type,specified-options,,,,,,
+Decision-rule,pure-preferences,managers decide based on preferences among available options ,,,,,
+org-size,7,,,,,,
+span-of-control,2,,,,,,
+agent-behaviour,sincere,,,,,,
+decision-space,s t u v w x y z,,,,,,
+Experiments #,3,,,,,,
+,,,,,,,
+Start-1,,,,,,,
+agents,Operator-1,Operator-2,Operator-3,Operator-4,Manager-A,Manager-B,Director
+agent-preferences,u x v s t w y z ,z v u y t x s w,y t z u v s w x,x u s w y z t v,u x w s t v z y,v x y t u w s z ,u s w y z v x t
+agent-position,Manager-A; 2; 0,Manager-A; 2; 1,Manager-B; 2; 2 ,Manager-B; 2; 3,Director;  1; 0,Director; 1; 1,nobody; 0; 0
+agent-jurisdiction,s t ,u v ,w x,y z,subs,subs,subs
+agent-behaviour,sincere,sincere,sincere,sincere,sincere,sincere,sincere
+End-1,,,,,,,
+,,,,,,,
+Start-2,,,,,,,
+agents,Operator-1,Operator-2,Operator-3,Operator-4,Manager-A,Manager-B,Director
+agent-preferences,u x v s t w y z ,z v u y t x s w,y t z u v s w x,x u s w y z t v,u x w s t v z y,v x y t u w s z ,u s w y z v x t
+agent-position,Manager-A; 2; 0,Manager-B; 2; 2,Manager-A; 2; 1,Manager-B; 2; 3,Director; 1; 0,Director; 1; 1,nobody; 0; 0
+agent-jurisdiction,s t ,u v,w x,y z,subs,subs,subs
+agent-behaviour,sincere,sincere,sincere,sincere,sincere,sincere,sincere
+End-2,,,,,,,
+,,,,,,,
+Start-3,,,,,,,
+agents,Operator-1,Operator-2,Operator-3,Operator-4,Manager-A,Manager-B,Director
+agent-preferences,u x v s t w y z ,z v u y t x s w,y t z u v s w x,x u s w y z t v,u x w s t v z y,v x y t u w s z ,u s w y z v x t
+agent-position,Manager-A; 2; 0,Manager-A; 2; 1,Manager-B; 2; 2 ,Manager-B; 2; 3,Director; 1; 0,Director; 1; 1,nobody; 0; 0
+agent-jurisdiction,s t ,u v ,w x,y z,subs,subs,subs
+agent-behaviour,sincere,sincere,sincere,sincere,sincere,sincere,sincere
+End-3,,,,,,,

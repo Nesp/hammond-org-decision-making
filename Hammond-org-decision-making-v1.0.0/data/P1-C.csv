@@ -1,0 +1,28 @@
+﻿proposition-tested,1,,,,,,
+jurisdictions-type,full-sets-of-options,,,,,,
+decision-rule-managers,management-by-exceptions,,,,,,
+org-size,7,,,,,,
+span-of-control,2,,,,,,
+agent-behaviour,sincere,,,,,,
+decision-space,"""x y""",,,,,,
+Experiments #,2,,,,,,
+,,,,,,,
+Start-1,,,,,,,
+agents,Operator-1,Operator-2,Operator-3,Operator-4,Manager-A,Manager-B,Director
+agent-preferences,x y ,y x ,x y,y x,x y ,x y ,y x 
+agent-position,Manager-A; 2; 0,Manager-A; 2; 1,Manager-B; 2; 2 ,Manager-B; 2; 3,Director;  1; 0,Director; 1; 1,nobody; 0; 0
+agent-jurisdiction,x y,x y,x y,x y,subs,subs,subs
+agent-behaviour,sincere,sincere,sincere,sincere,sincere,sincere,sincere
+End-1,,,,,,,
+,,,,,,,
+Start-2,,,,,,,
+agents,Operator-1,Operator-2,Operator-3,Operator-4,Manager-A,Manager-B,Director
+agent-preferences, x y,y x ,y x,x y,x y,x y ,y x 
+agent-position,Manager-B; 2; 2,Manager-A; 2; 1,Manager-A; 2; 0,Manager-B; 2; 3,Director; 1; 0,Director; 1; 1,nobody; 0; 0
+agent-jurisdiction,x y,x y,x y,x y,subs,subs,subs
+agent-behaviour,sincere,sincere,sincere,sincere,sincere,sincere,sincere
+End-2,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,

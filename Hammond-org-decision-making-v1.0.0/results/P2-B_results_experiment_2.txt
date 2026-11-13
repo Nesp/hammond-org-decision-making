@@ -1,0 +1,736 @@
+___________________________________________________________________________
+START OF EXPERIMENT 0
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Manager-A; 2; 0 s t  sincere] [Operator-2 Manager-A; 2; 1 u v  sincere] [Operator-3 Manager-B; 2; 2  w x sincere] [Operator-4 Manager-B; 2; 3 y z sincere] [Manager-A Director;  1; 0 subs sincere] [Manager-B Director; 1; 1 subs sincere] [Director nobody; 0; 0 subs sincere]]
+I am agent Manager-B checking the inputs from my subordinates: [y w]
+I am agent Manager-A checking the inputs from my subordinates: [s v]
+I am agent Director checking the inputs from my subordinates: [s y]
+___________________________________________________________________________
+START OF EXPERIMENT 1
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Manager-A; 2; 0 s t  sincere] [Operator-2 Manager-B; 2; 2 u v sincere] [Operator-3 Manager-A; 2; 1 w x sincere] [Operator-4 Manager-B; 2; 3 y z sincere] [Manager-A Director; 1; 0 subs sincere] [Manager-B Director; 1; 1 subs sincere] [Director nobody; 0; 0 subs sincere]]
+I am agent Manager-B checking the inputs from my subordinates: [v y]
+I am agent Manager-A checking the inputs from my subordinates: [w s]
+I am agent Director checking the inputs from my subordinates: [w v]
+___________________________________________________________________________
+START OF EXPERIMENT 2
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Manager-A; 2; 0 s t  sincere] [Operator-2 Manager-A; 2; 1 u v  sincere] [Operator-3 Manager-B; 2; 2  w x sincere] [Operator-4 Manager-B; 2; 3 y z sincere] [Manager-A Director; 1; 0 subs sincere] [Manager-B Director; 1; 1 subs sincere] [Director nobody; 0; 0 subs sincere]]
+I am agent Manager-A checking the inputs from my subordinates: [s v]
+I am agent Manager-B checking the inputs from my subordinates: [w y]
+I am agent Director checking the inputs from my subordinates: [y s]
+___________________________________________________________________________
+START OF EXPERIMENT 0
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Manager; 2; 0 W sincere] [Operator-2 Manager; 2; 1 X sincere] [Operator-3 Director; 2; 2 Y sincere] [Manager Director; 1; 0 Z sincere] [Director nobody; 0; 0 subs sincere]]
+I am the operator agent Operator-1
+I am picking non- strategically based on my preferences [13 8 3 12 16 1 6 10 11 5 2 15 7 9 4 14]
+Choosing the most preferred plan 13
+Passing on my choice and the remaining plans [w2 [9 10 11 12 13 14 15 16]]
+I am the operator agent Operator-3
+I am picking non- strategically based on my preferences [11 4 1 8 12 16 13 6 3 9 14 7 2 5 10 15]
+Choosing the most preferred plan 11
+Passing on my choice and the remaining plans [y2 [3 4 7 8 11 12 15 16]]
+I am the operator agent Operator-2
+I am picking non- strategically based on my preferences [2 12 16 6 8 3 10 14 4 1 5 11 13 15 9 7]
+Choosing the most preferred plan 2
+Passing on my choice and the remaining plans [x1 [1 2 3 4 9 10 11 12]]
+___
+I am agent Manager, processing the inputs [[x1 [1 2 3 4 9 10 11 12]] [w2 [9 10 11 12 13 14 15 16]]]
+______________________
+I am agent Manager
+the input plans were[[1 2 3 4 9 10 11 12] [9 10 11 12 13 14 15 16]]
+the remaining plans are  [[9 [w2 x1 y1 z1]] [10 [w2 x1 y1 z2]] [11 [w2 x1 y2 z1]] [12 [w2 x1 y2 z2]]]
+my preferences are [1 4 8 13 6 9 15 11 3 16 5 2 7 10 14 12]
+my preferred plan is then 9 containing the decisions [w2 x1 y1 z1]
+given that my jurisdiction is Z my choice associated with my jurisdiction is z1
+the remaining plans after my decisions are [[9 [w2 x1 y1 z1]] [11 [w2 x1 y2 z1]]]
+my final choice is [z1 [9 11]]
+___
+I am agent Director, processing the inputs [[y2 [3 4 7 8 11 12 15 16]] [z1 [9 11]]]
+______________________
+I am agent Director
+the input plans were[[3 4 7 8 11 12 15 16] [9 11]]
+the remining plans are  [11]
+my final chioce is [11]
+___________________________________________________________________________
+START OF EXPERIMENT 1
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Director; 2; 0 W sincere] [Operator-2 Manager; 2; 1 X sincere] [Operator-3 Manager; 2; 2 Y sincere] [Manager Director; 1; 1 Z sincere] [Director nobody; 0; 0 subs sincere]]
+I am the operator agent Operator-3
+I am picking non- strategically based on my preferences [11 4 1 8 12 16 13 6 3 9 14 7 2 5 10 15]
+Choosing the most preferred plan 11
+Passing on my choice and the remaining plans [y2 [3 4 7 8 11 12 15 16]]
+I am the operator agent Operator-2
+I am picking non- strategically based on my preferences [2 12 16 6 8 3 10 14 4 1 5 11 13 15 9 7]
+Choosing the most preferred plan 2
+Passing on my choice and the remaining plans [x1 [1 2 3 4 9 10 11 12]]
+I am the operator agent Operator-1
+I am picking non- strategically based on my preferences [13 8 3 12 16 1 6 10 11 5 2 15 7 9 4 14]
+Choosing the most preferred plan 13
+Passing on my choice and the remaining plans [w2 [9 10 11 12 13 14 15 16]]
+___
+I am agent Manager, processing the inputs [[y2 [3 4 7 8 11 12 15 16]] [x1 [1 2 3 4 9 10 11 12]]]
+______________________
+I am agent Manager
+the input plans were[[3 4 7 8 11 12 15 16] [1 2 3 4 9 10 11 12]]
+the remaining plans are  [[3 [w1 x1 y2 z1]] [4 [w1 x1 y2 z2]] [11 [w2 x1 y2 z1]] [12 [w2 x1 y2 z2]]]
+my preferences are [1 4 8 13 6 9 15 11 3 16 5 2 7 10 14 12]
+my preferred plan is then 4 containing the decisions [w1 x1 y2 z2]
+given that my jurisdiction is Z my choice associated with my jurisdiction is z2
+the remaining plans after my decisions are [[4 [w1 x1 y2 z2]] [12 [w2 x1 y2 z2]]]
+my final choice is [z2 [4 12]]
+___
+I am agent Director, processing the inputs [[z2 [4 12]] [w2 [9 10 11 12 13 14 15 16]]]
+______________________
+I am agent Director
+the input plans were[[4 12] [9 10 11 12 13 14 15 16]]
+the remining plans are  [12]
+my final chioce is [12]
+___________________________________________________________________________
+START OF EXPERIMENT 2
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Manager; 2; 0 W sincere] [Operator-2 Manager; 2; 1 Y sincere] [Operator-3 Director; 2; 2 X sincere] [Manager Director; 1; 0 Z sincere] [Director nobody; 0; 0 subs sincere]]
+I am the operator agent Operator-2
+I am picking non- strategically based on my preferences [2 12 16 6 8 3 10 14 4 1 5 11 13 15 9 7]
+Choosing the most preferred plan 2
+Passing on my choice and the remaining plans [y1 [1 2 5 6 9 10 13 14]]
+I am the operator agent Operator-1
+I am picking non- strategically based on my preferences [13 8 3 12 16 1 6 10 11 5 2 15 7 9 4 14]
+Choosing the most preferred plan 13
+Passing on my choice and the remaining plans [w2 [9 10 11 12 13 14 15 16]]
+I am the operator agent Operator-3
+I am picking non- strategically based on my preferences [11 4 1 8 12 16 13 6 3 9 14 7 2 5 10 15]
+Choosing the most preferred plan 11
+Passing on my choice and the remaining plans [x1 [1 2 3 4 9 10 11 12]]
+___
+I am agent Manager, processing the inputs [[y1 [1 2 5 6 9 10 13 14]] [w2 [9 10 11 12 13 14 15 16]]]
+______________________
+I am agent Manager
+the input plans were[[1 2 5 6 9 10 13 14] [9 10 11 12 13 14 15 16]]
+the remaining plans are  [[9 [w2 x1 y1 z1]] [10 [w2 x1 y1 z2]] [13 [w2 x2 y1 z1]] [14 [w2 x2 y1 z2]]]
+my preferences are [1 4 8 13 6 9 15 11 3 16 5 2 7 10 14 12]
+my preferred plan is then 13 containing the decisions [w2 x2 y1 z1]
+given that my jurisdiction is Z my choice associated with my jurisdiction is z1
+the remaining plans after my decisions are [[9 [w2 x1 y1 z1]] [13 [w2 x2 y1 z1]]]
+my final choice is [z1 [9 13]]
+___
+I am agent Director, processing the inputs [[x1 [1 2 3 4 9 10 11 12]] [z1 [9 13]]]
+______________________
+I am agent Director
+the input plans were[[1 2 3 4 9 10 11 12] [9 13]]
+the remining plans are  [9]
+my final chioce is [9]
+___________________________________________________________________________
+START OF EXPERIMENT 3
+[name, position, jurisdiction, behavoiur] :[[Field-Op-1 Manager; 2; 0 Z sincere] [Field-Op-2 Manager; 2; 1 X sincere] [Field-Op-3 Director; 2; 2 Y sincere] [Manager Director; 1; 0 W sincere] [Director nobody; 0; 0 subs sincere]]
+I am the operator agent Field-Op-2
+I am picking non- strategically based on my preferences [2 12 16 6 8 3 10 14 4 1 5 11 13 15 9 7]
+Choosing the most preferred plan 2
+Passing on my choice and the remaining plans [x1 [1 2 3 4 9 10 11 12]]
+I am the operator agent Field-Op-1
+I am picking non- strategically based on my preferences [13 8 3 12 16 1 6 10 11 5 2 15 7 9 4 14]
+Choosing the most preferred plan 13
+Passing on my choice and the remaining plans [z1 [1 3 5 7 9 11 13 15]]
+I am the operator agent Field-Op-3
+I am picking non- strategically based on my preferences [11 4 1 8 12 16 13 6 3 9 14 7 2 5 10 15]
+Choosing the most preferred plan 11
+Passing on my choice and the remaining plans [y2 [3 4 7 8 11 12 15 16]]
+___
+I am agent Manager, processing the inputs [[x1 [1 2 3 4 9 10 11 12]] [z1 [1 3 5 7 9 11 13 15]]]
+______________________
+I am agent Manager
+the input plans were[[1 2 3 4 9 10 11 12] [1 3 5 7 9 11 13 15]]
+the remaining plans are  [[1 [w1 x1 y1 z1]] [3 [w1 x1 y2 z1]] [9 [w2 x1 y1 z1]] [11 [w2 x1 y2 z1]]]
+my preferences are [1 4 8 13 6 9 15 11 3 16 5 2 7 10 14 12]
+my preferred plan is then 1 containing the decisions [w1 x1 y1 z1]
+given that my jurisdiction is W my choice associated with my jurisdiction is w1
+the remaining plans after my decisions are [[1 [w1 x1 y1 z1]] [3 [w1 x1 y2 z1]]]
+my final choice is [w1 [1 3]]
+___
+I am agent Director, processing the inputs [[y2 [3 4 7 8 11 12 15 16]] [w1 [1 3]]]
+______________________
+I am agent Director
+the input plans were[[3 4 7 8 11 12 15 16] [1 3]]
+the remining plans are  [3]
+my final chioce is [3]
+___________________________________________________________________________
+START OF EXPERIMENT 0
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Manager; 2; 0 W sincere] [Operator-2 Manager; 2; 1 X sincere] [Operator-3 Director; 2; 2 Y sincere] [Manager Director; 1; 0 Z sincere] [Director nobody; 0; 0 subs sincere]]
+I am the operator agent Operator-3
+I am picking non- strategically based on my preferences [11 4 1 8 12 16 13 6 3 9 14 7 2 5 10 15]
+Choosing the most preferred plan 11
+Passing on my choice and the remaining plans [y2 [3 4 7 8 11 12 15 16]]
+I am the operator agent Operator-1
+I am picking non- strategically based on my preferences [13 8 3 12 16 1 6 10 11 5 2 15 7 9 4 14]
+Choosing the most preferred plan 13
+Passing on my choice and the remaining plans [w2 [9 10 11 12 13 14 15 16]]
+I am the operator agent Operator-2
+I am picking non- strategically based on my preferences [2 12 16 6 8 3 10 14 4 1 5 11 13 15 9 7]
+Choosing the most preferred plan 2
+Passing on my choice and the remaining plans [x1 [1 2 3 4 9 10 11 12]]
+___
+I am agent Manager, processing the inputs [[w2 [9 10 11 12 13 14 15 16]] [x1 [1 2 3 4 9 10 11 12]]]
+______________________
+I am agent Manager
+the input plans were[[9 10 11 12 13 14 15 16] [1 2 3 4 9 10 11 12]]
+the remaining plans are  [[9 [w2 x1 y1 z1]] [10 [w2 x1 y1 z2]] [11 [w2 x1 y2 z1]] [12 [w2 x1 y2 z2]]]
+my preferences are [1 4 8 13 6 9 15 11 3 16 5 2 7 10 14 12]
+my preferred plan is then 9 containing the decisions [w2 x1 y1 z1]
+given that my jurisdiction is Z my choice associated with my jurisdiction is z1
+the remaining plans after my decisions are [[9 [w2 x1 y1 z1]] [11 [w2 x1 y2 z1]]]
+my final choice is [z1 [9 11]]
+___
+I am agent Director, processing the inputs [[z1 [9 11]] [y2 [3 4 7 8 11 12 15 16]]]
+______________________
+I am agent Director
+the input plans were[[9 11] [3 4 7 8 11 12 15 16]]
+the remining plans are  [11]
+my final chioce is [11]
+___________________________________________________________________________
+START OF EXPERIMENT 1
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Director; 2; 0 W sincere] [Operator-2 Manager; 2; 1 X sincere] [Operator-3 Manager; 2; 2 Y sincere] [Manager Director; 1; 1 Z sincere] [Director nobody; 0; 0 subs sincere]]
+I am the operator agent Operator-3
+I am picking non- strategically based on my preferences [11 4 1 8 12 16 13 6 3 9 14 7 2 5 10 15]
+Choosing the most preferred plan 11
+Passing on my choice and the remaining plans [y2 [3 4 7 8 11 12 15 16]]
+I am the operator agent Operator-1
+I am picking non- strategically based on my preferences [13 8 3 12 16 1 6 10 11 5 2 15 7 9 4 14]
+Choosing the most preferred plan 13
+Passing on my choice and the remaining plans [w2 [9 10 11 12 13 14 15 16]]
+I am the operator agent Operator-2
+I am picking non- strategically based on my preferences [2 12 16 6 8 3 10 14 4 1 5 11 13 15 9 7]
+Choosing the most preferred plan 2
+Passing on my choice and the remaining plans [x1 [1 2 3 4 9 10 11 12]]
+___
+I am agent Manager, processing the inputs [[y2 [3 4 7 8 11 12 15 16]] [x1 [1 2 3 4 9 10 11 12]]]
+______________________
+I am agent Manager
+the input plans were[[3 4 7 8 11 12 15 16] [1 2 3 4 9 10 11 12]]
+the remaining plans are  [[3 [w1 x1 y2 z1]] [4 [w1 x1 y2 z2]] [11 [w2 x1 y2 z1]] [12 [w2 x1 y2 z2]]]
+my preferences are [1 4 8 13 6 9 15 11 3 16 5 2 7 10 14 12]
+my preferred plan is then 4 containing the decisions [w1 x1 y2 z2]
+given that my jurisdiction is Z my choice associated with my jurisdiction is z2
+the remaining plans after my decisions are [[4 [w1 x1 y2 z2]] [12 [w2 x1 y2 z2]]]
+my final choice is [z2 [4 12]]
+___
+I am agent Director, processing the inputs [[w2 [9 10 11 12 13 14 15 16]] [z2 [4 12]]]
+______________________
+I am agent Director
+the input plans were[[9 10 11 12 13 14 15 16] [4 12]]
+the remining plans are  [12]
+my final chioce is [12]
+___________________________________________________________________________
+START OF EXPERIMENT 2
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Manager; 2; 0 W sincere] [Operator-2 Manager; 2; 1 Y sincere] [Operator-3 Director; 2; 2 X sincere] [Manager Director; 1; 0 Z sincere] [Director nobody; 0; 0 subs sincere]]
+I am the operator agent Operator-3
+I am picking non- strategically based on my preferences [11 4 1 8 12 16 13 6 3 9 14 7 2 5 10 15]
+Choosing the most preferred plan 11
+Passing on my choice and the remaining plans [x1 [1 2 3 4 9 10 11 12]]
+I am the operator agent Operator-2
+I am picking non- strategically based on my preferences [2 12 16 6 8 3 10 14 4 1 5 11 13 15 9 7]
+Choosing the most preferred plan 2
+Passing on my choice and the remaining plans [y1 [1 2 5 6 9 10 13 14]]
+I am the operator agent Operator-1
+I am picking non- strategically based on my preferences [13 8 3 12 16 1 6 10 11 5 2 15 7 9 4 14]
+Choosing the most preferred plan 13
+Passing on my choice and the remaining plans [w2 [9 10 11 12 13 14 15 16]]
+___
+I am agent Manager, processing the inputs [[w2 [9 10 11 12 13 14 15 16]] [y1 [1 2 5 6 9 10 13 14]]]
+______________________
+I am agent Manager
+the input plans were[[9 10 11 12 13 14 15 16] [1 2 5 6 9 10 13 14]]
+the remaining plans are  [[9 [w2 x1 y1 z1]] [10 [w2 x1 y1 z2]] [13 [w2 x2 y1 z1]] [14 [w2 x2 y1 z2]]]
+my preferences are [1 4 8 13 6 9 15 11 3 16 5 2 7 10 14 12]
+my preferred plan is then 13 containing the decisions [w2 x2 y1 z1]
+given that my jurisdiction is Z my choice associated with my jurisdiction is z1
+the remaining plans after my decisions are [[9 [w2 x1 y1 z1]] [13 [w2 x2 y1 z1]]]
+my final choice is [z1 [9 13]]
+___
+I am agent Director, processing the inputs [[x1 [1 2 3 4 9 10 11 12]] [z1 [9 13]]]
+______________________
+I am agent Director
+the input plans were[[1 2 3 4 9 10 11 12] [9 13]]
+the remining plans are  [9]
+my final chioce is [9]
+___________________________________________________________________________
+START OF EXPERIMENT 3
+[name, position, jurisdiction, behavoiur] :[[Field-Op-1 Manager; 2; 0 Z sincere] [Field-Op-2 Manager; 2; 1 X sincere] [Field-Op-3 Director; 2; 2 Y sincere] [Manager Director; 1; 0 W sincere] [Director nobody; 0; 0 subs sincere]]
+I am the operator agent Field-Op-2
+I am picking non- strategically based on my preferences [2 12 16 6 8 3 10 14 4 1 5 11 13 15 9 7]
+Choosing the most preferred plan 2
+Passing on my choice and the remaining plans [x1 [1 2 3 4 9 10 11 12]]
+I am the operator agent Field-Op-3
+I am picking non- strategically based on my preferences [11 4 1 8 12 16 13 6 3 9 14 7 2 5 10 15]
+Choosing the most preferred plan 11
+Passing on my choice and the remaining plans [y2 [3 4 7 8 11 12 15 16]]
+I am the operator agent Field-Op-1
+I am picking non- strategically based on my preferences [13 8 3 12 16 1 6 10 11 5 2 15 7 9 4 14]
+Choosing the most preferred plan 13
+Passing on my choice and the remaining plans [z1 [1 3 5 7 9 11 13 15]]
+___
+I am agent Manager, processing the inputs [[z1 [1 3 5 7 9 11 13 15]] [x1 [1 2 3 4 9 10 11 12]]]
+______________________
+I am agent Manager
+the input plans were[[1 3 5 7 9 11 13 15] [1 2 3 4 9 10 11 12]]
+the remaining plans are  [[1 [w1 x1 y1 z1]] [3 [w1 x1 y2 z1]] [9 [w2 x1 y1 z1]] [11 [w2 x1 y2 z1]]]
+my preferences are [1 4 8 13 6 9 15 11 3 16 5 2 7 10 14 12]
+my preferred plan is then 1 containing the decisions [w1 x1 y1 z1]
+given that my jurisdiction is W my choice associated with my jurisdiction is w1
+the remaining plans after my decisions are [[1 [w1 x1 y1 z1]] [3 [w1 x1 y2 z1]]]
+my final choice is [w1 [1 3]]
+___
+I am agent Director, processing the inputs [[y2 [3 4 7 8 11 12 15 16]] [w1 [1 3]]]
+______________________
+I am agent Director
+the input plans were[[3 4 7 8 11 12 15 16] [1 3]]
+the remining plans are  [3]
+my final chioce is [3]
+___________________________________________________________________________
+START OF EXPERIMENT 0
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Manager-A; 2; 0 x y sincere] [Operator-2 Manager-A; 2; 1 x y sincere] [Operator-3 Manager-B; 2; 2  x y sincere] [Operator-4 Manager-B; 2; 3 x y sincere] [Manager-A Director;  1; 0 subs sincere] [Manager-B Director; 1; 1 subs sincere] [Director nobody; 0; 0 subs sincere]]
+I am agent Manager-B checking the inputs from my subordinates: [x y]
+I am agent Manager-A checking the inputs from my subordinates: [y x]
+I am agent Director checking the inputs from my subordinates: [x]
+___________________________________________________________________________
+START OF EXPERIMENT 1
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Manager-B; 2; 2 x y sincere] [Operator-2 Manager-A; 2; 1 x y sincere] [Operator-3 Manager-A; 2; 0 x y sincere] [Operator-4 Manager-B; 2; 3 x y sincere] [Manager-A Director; 1; 0 subs sincere] [Manager-B Director; 1; 1 subs sincere] [Director nobody; 0; 0 subs sincere]]
+I am agent Manager-A checking the inputs from my subordinates: [y]
+I am agent Manager-B checking the inputs from my subordinates: [x]
+I am agent Director checking the inputs from my subordinates: [y x]
+___________________________________________________________________________
+START OF EXPERIMENT 0
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Manager-1; 2; 0 x y w z strategic] [Operator-2 Manager-1; 2; 1 x y w z sincere] [Operator-3 Manager-2; 2; 2 x y w z sincere] [Operator-4 Manager-2; 2; 3 x y w z sincere] [Manager-1 Director; 1; 0 subs sincere] [Manager-2 Director; 1; 1 subs sincere] [Director nobody; 0; 0 subs sincere]]
+______________Strategic thinking starts here_________________________________________________________________
+*) Exploring-scenarios: I am the strategic agent Operator-1, exploring scenarios to decide strategically.
+my options after processing are [w x y z] these are also the list of remaining plans
+the sincere option found is w
+==========================>
+>>>>  evaluating option w
+==========================>
+   after processing the option is w
+--------------------------------------------> projecting: the option w
+I am agent Manager-1 checking the inputs from my subordinates: [x w]
+I am agent Manager-2 checking the inputs from my subordinates: [z y]
+I am agent Director checking the inputs from my subordinates: [y]
+-----------------> if the option is w, organizational outcome is: y
+==========================>
+>>>>  evaluating option x
+==========================>
+   after processing the option is x
+--------------------------------------------> projecting: the option x
+I am agent Manager-1 checking the inputs from my subordinates: [x]
+I am agent Manager-2 checking the inputs from my subordinates: [y z]
+I am agent Director checking the inputs from my subordinates: [x y]
+-----------------> if the option is x, organizational outcome is: w
+==========================>
+>>>>  evaluating option y
+==========================>
+   after processing the option is y
+--------------------------------------------> projecting: the option y
+I am agent Manager-1 checking the inputs from my subordinates: [x y]
+I am agent Manager-2 checking the inputs from my subordinates: [y z]
+I am agent Director checking the inputs from my subordinates: [y]
+-----------------> if the option is y, organizational outcome is: y
+==========================>
+>>>>  evaluating option z
+==========================>
+   after processing the option is z
+--------------------------------------------> projecting: the option z
+I am agent Manager-1 checking the inputs from my subordinates: [z x]
+I am agent Manager-2 checking the inputs from my subordinates: [z y]
+I am agent Director checking the inputs from my subordinates: [y]
+-----------------> if the option is z, organizational outcome is: y
+Finalizing strategic reasoning:
+I am agent Operator-1, comparing the options-outcomes [[w y] [x w] [y y] [z y]] with my preferences [w x y z]
+The best options is [x w]
+The strategic outcome was: w, with a rank 0 whereas the sincere outcome was: y, with a rank 2
+my preferences are: [w x y z]
+Did the strategic behaviour help to achieve a more desireable outcome? true
+______________Strategic thinking ends here_____________________________________________________________________________
+I am agent Manager-2 checking the inputs from my subordinates: [y z]
+I am agent Manager-1 checking the inputs from my subordinates: [x]
+I am agent Director checking the inputs from my subordinates: [y x]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> the outcome based on the sicere decision would have been y
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> the actual autcome was w
+___________________________________________________________________________
+START OF EXPERIMENT 1
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Manager-2; 2; 2 x y w z strategic] [Operator-2 Manager-1; 2; 1 x y w z sincere] [Operator-3 Manager-1; 2; 0 x y w z sincere] [Operator-4 Manager-2; 2; 3 x y w z sincere] [Manager-1 Director; 1; 0 subs sincere] [Manager-2 Director; 1; 1 subs sincere] [Director nobody; 0; 0 subs sincere]]
+______________Strategic thinking starts here_________________________________________________________________
+*) Exploring-scenarios: I am the strategic agent Operator-1, exploring scenarios to decide strategically.
+my options after processing are [w x y z] these are also the list of remaining plans
+the sincere option found is w
+==========================>
+>>>>  evaluating option w
+==========================>
+   after processing the option is w
+--------------------------------------------> projecting: the option w
+I am agent Manager-1 checking the inputs from my subordinates: [y x]
+I am agent Manager-2 checking the inputs from my subordinates: [w z]
+I am agent Director checking the inputs from my subordinates: [y]
+-----------------> if the option is w, organizational outcome is: y
+==========================>
+>>>>  evaluating option x
+==========================>
+   after processing the option is x
+--------------------------------------------> projecting: the option x
+I am agent Manager-1 checking the inputs from my subordinates: [x y]
+I am agent Manager-2 checking the inputs from my subordinates: [z x]
+I am agent Director checking the inputs from my subordinates: [y]
+-----------------> if the option is x, organizational outcome is: y
+==========================>
+>>>>  evaluating option y
+==========================>
+   after processing the option is y
+--------------------------------------------> projecting: the option y
+I am agent Manager-1 checking the inputs from my subordinates: [y x]
+I am agent Manager-2 checking the inputs from my subordinates: [y z]
+I am agent Director checking the inputs from my subordinates: [y]
+-----------------> if the option is y, organizational outcome is: y
+==========================>
+>>>>  evaluating option z
+==========================>
+   after processing the option is z
+--------------------------------------------> projecting: the option z
+I am agent Manager-1 checking the inputs from my subordinates: [x y]
+I am agent Manager-2 checking the inputs from my subordinates: [z]
+I am agent Director checking the inputs from my subordinates: [z y]
+-----------------> if the option is z, organizational outcome is: w
+Finalizing strategic reasoning:
+I am agent Operator-1, comparing the options-outcomes [[w y] [x y] [y y] [z w]] with my preferences [w x y z]
+The best options is [z w]
+The strategic outcome was: w, with a rank 0 whereas the sincere outcome was: y, with a rank 2
+my preferences are: [w x y z]
+Did the strategic behaviour help to achieve a more desireable outcome? true
+______________Strategic thinking ends here_____________________________________________________________________________
+I am agent Manager-1 checking the inputs from my subordinates: [x y]
+I am agent Manager-2 checking the inputs from my subordinates: [z]
+I am agent Director checking the inputs from my subordinates: [z y]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> the outcome based on the sicere decision would have been y
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> the actual autcome was w
+___________________________________________________________________________
+START OF EXPERIMENT 0
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Manager-1; 2; 0 x y w z strategic] [Operator-2 Manager-1; 2; 1 x y w z sincere] [Operator-3 Manager-2; 2; 2 x y w z sincere] [Operator-4 Manager-2; 2; 3 x y w z sincere] [Manager-1 Director; 1; 0 subs sincere] [Manager-2 Director; 1; 1 subs sincere] [Director nobody; 0; 0 subs sincere]]
+______________Strategic thinking starts here_________________________________________________________________
+*) Exploring-scenarios: I am the strategic agent Operator-1, exploring scenarios to decide strategically.
+my options after processing are [w x y z] these are also the list of remaining plans
+the sincere option found is w
+==========================>
+>>>>  evaluating option w
+==========================>
+   after processing the option is w
+--------------------------------------------> projecting: the option w
+I am agent Manager-1 checking the inputs from my subordinates: [w x]
+I am agent Manager-2 checking the inputs from my subordinates: [y z]
+I am agent Director checking the inputs from my subordinates: [y]
+-----------------> if the option is w, organizational outcome is: y
+==========================>
+>>>>  evaluating option x
+==========================>
+   after processing the option is x
+--------------------------------------------> projecting: the option x
+I am agent Manager-1 checking the inputs from my subordinates: [x]
+I am agent Manager-2 checking the inputs from my subordinates: [y z]
+I am agent Director checking the inputs from my subordinates: [y x]
+-----------------> if the option is x, organizational outcome is: w
+==========================>
+>>>>  evaluating option y
+==========================>
+   after processing the option is y
+--------------------------------------------> projecting: the option y
+I am agent Manager-1 checking the inputs from my subordinates: [y x]
+I am agent Manager-2 checking the inputs from my subordinates: [z y]
+I am agent Director checking the inputs from my subordinates: [y]
+-----------------> if the option is y, organizational outcome is: y
+==========================>
+>>>>  evaluating option z
+==========================>
+   after processing the option is z
+--------------------------------------------> projecting: the option z
+I am agent Manager-1 checking the inputs from my subordinates: [z x]
+I am agent Manager-2 checking the inputs from my subordinates: [y z]
+I am agent Director checking the inputs from my subordinates: [y]
+-----------------> if the option is z, organizational outcome is: y
+Finalizing strategic reasoning:
+I am agent Operator-1, comparing the options-outcomes [[w y] [x w] [y y] [z y]] with my preferences [w x y z]
+The best options is [x w]
+The strategic outcome was: w, with a rank 0 whereas the sincere outcome was: y, with a rank 2
+my preferences are: [w x y z]
+Did the strategic behaviour help to achieve a more desireable outcome? true
+______________Strategic thinking ends here_____________________________________________________________________________
+I am agent Manager-2 checking the inputs from my subordinates: [y z]
+I am agent Manager-1 checking the inputs from my subordinates: [x]
+I am agent Director checking the inputs from my subordinates: [y x]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> the outcome based on the sicere decision would have been y
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> the actual autcome was w
+___________________________________________________________________________
+START OF EXPERIMENT 1
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Manager-2; 2; 2 x y w z sincere] [Operator-2 Manager-1; 2; 1 x y w z sincere] [Operator-3 Manager-1; 2; 0 x y w z sincere] [Operator-4 Manager-2; 2; 3 x y w z sincere] [Manager-1 Director; 1; 0 subs sincere] [Manager-2 Director; 1; 1 subs strategic] [Director nobody; 0; 0 subs sincere]]
+I am agent Manager-1 checking the inputs from my subordinates: [x y]
+______________Strategic thinking starts here_________________________________________________________________
+*) Exploring-scenarios: I am the strategic agent Manager-2, exploring scenarios to decide strategically.
+my options after processing are [y z w x] these are also the list of remaining plans
+the sincere option found is y
+==========================>
+>>>>  evaluating option y
+==========================>
+   after processing the option is y
+--------------------------------------------> projecting: the option y
+I am agent Director checking the inputs from my subordinates: [y]
+-----------------> if the option is y, organizational outcome is: y
+==========================>
+>>>>  evaluating option z
+==========================>
+   after processing the option is z
+--------------------------------------------> projecting: the option z
+I am agent Director checking the inputs from my subordinates: [z y]
+-----------------> if the option is z, organizational outcome is: w
+==========================>
+>>>>  evaluating option w
+==========================>
+   after processing the option is w
+--------------------------------------------> projecting: the option w
+I am agent Director checking the inputs from my subordinates: [y w]
+-----------------> if the option is w, organizational outcome is: w
+==========================>
+>>>>  evaluating option x
+==========================>
+   after processing the option is x
+--------------------------------------------> projecting: the option x
+I am agent Director checking the inputs from my subordinates: [y x]
+-----------------> if the option is x, organizational outcome is: w
+Finalizing strategic reasoning:
+I am agent Manager-2, comparing the options-outcomes [[y y] [z w] [w w] [x w]] with my preferences [y z w x]
+The best options is [y y]
+The strategic outcome was: y, with a rank 0 whereas the sincere outcome was: y, with a rank 0
+my preferences are: [y z w x]
+Did the strategic behaviour help to achieve a more desireable outcome? neutral
+______________Strategic thinking ends here_____________________________________________________________________________
+I am agent Director checking the inputs from my subordinates: [y]
+The outcome of the strategic decision making was neutral, meaning that the sincere outcome 'y' is the same as the strategic one: 'y'
+___________________________________________________________________________
+START OF EXPERIMENT 0
+[name, position, jurisdiction, behavoiur] :[[Political-specialist Economic-specialist; 2; 0 P strategic] [Military-specialist nobody; 0; 0 M sincere] [Economic-specialist Military-specialist; 1; 0 E sincere]]
+______________Strategic thinking starts here_________________________________________________________________
+*) Exploring-scenarios: I am the strategic agent Political-specialist, exploring scenarios to decide strategically.
+my options after processing are [2 3 5 6 7 1 8 4] these are also the list of remaining plans
+the sincere option found is 2
+==========================>
+>>>>  evaluating option 2
+==========================>
+   after processing the option is [p1 [1 2 3 4]]
+--------------------------------------------> projecting: the option [p1 [1 2 3 4]]
+-----------------> if the option is [p1 [1 2 3 4]], organizational outcome is: [m2 [2]]
+==========================>
+>>>>  evaluating option 3
+==========================>
+   after processing the option is [p1 [1 2 3 4]]
+--------------------------------------------> projecting: the option [p1 [1 2 3 4]]
+-----------------> if the option is [p1 [1 2 3 4]], organizational outcome is: [m2 [2]]
+==========================>
+>>>>  evaluating option 5
+==========================>
+   after processing the option is [p2 [5 6 7 8]]
+--------------------------------------------> projecting: the option [p2 [5 6 7 8]]
+-----------------> if the option is [p2 [5 6 7 8]], organizational outcome is: [m1 [7]]
+==========================>
+>>>>  evaluating option 6
+==========================>
+   after processing the option is [p2 [5 6 7 8]]
+--------------------------------------------> projecting: the option [p2 [5 6 7 8]]
+-----------------> if the option is [p2 [5 6 7 8]], organizational outcome is: [m1 [7]]
+==========================>
+>>>>  evaluating option 7
+==========================>
+   after processing the option is [p2 [5 6 7 8]]
+--------------------------------------------> projecting: the option [p2 [5 6 7 8]]
+-----------------> if the option is [p2 [5 6 7 8]], organizational outcome is: [m1 [7]]
+==========================>
+>>>>  evaluating option 1
+==========================>
+   after processing the option is [p1 [1 2 3 4]]
+--------------------------------------------> projecting: the option [p1 [1 2 3 4]]
+-----------------> if the option is [p1 [1 2 3 4]], organizational outcome is: [m2 [2]]
+==========================>
+>>>>  evaluating option 8
+==========================>
+   after processing the option is [p2 [5 6 7 8]]
+--------------------------------------------> projecting: the option [p2 [5 6 7 8]]
+-----------------> if the option is [p2 [5 6 7 8]], organizational outcome is: [m1 [7]]
+==========================>
+>>>>  evaluating option 4
+==========================>
+   after processing the option is [p1 [1 2 3 4]]
+--------------------------------------------> projecting: the option [p1 [1 2 3 4]]
+-----------------> if the option is [p1 [1 2 3 4]], organizational outcome is: [m2 [2]]
+Finalizing strategic reasoning:
+I am agent Political-specialist, comparing the options-outcomes [[2 2] [3 2] [5 7] [6 7] [7 7] [1 2] [8 7] [4 2]] with my preferences [2 3 5 6 7 1 8 4]
+The best options is [2 2]
+The strategic outcome was: 2, with a rank 0 whereas the sincere outcome was: 2, with a rank 0
+my preferences are: [2 3 5 6 7 1 8 4]
+Did the strategic behaviour help to achieve a more desireable outcome? neutral
+This is the input I am providing as a strategist to my manager via the structural link: [p1 [2 3 1 4]]
+______________Strategic thinking ends here_____________________________________________________________________________
+___
+I am agent Economic-specialist, processing the inputs [[p1 [2 3 1 4]]]
+______________________
+I am agent Economic-specialist
+the input plans were[[p1 [2 3 1 4]]]
+the remaining plans are  [[2 [p1 e1 m2]] [3 [p1 e2 m1]] [1 [p1 e1 m1]] [4 [p1 e2 m2]]]
+my preferences are [7 6 1 3 8 5 4 2]
+my preferred plan is then 1 containing the decisions [p1 e1 m1]
+given that my jurisdiction is E my choice associated with my jurisdiction is e1
+the remaining plans after my decisions are [[2 [p1 e1 m2]] [1 [p1 e1 m1]]]
+my final choice is [e1 [2 1]]
+___
+I am agent Military-specialist, processing the inputs [[e1 [2 1]]]
+______________________
+I am agent Military-specialist
+the input plans were[[e1 [2 1]]]
+the remaining plans are  [[2 [p1 e1 m2]] [1 [p1 e1 m1]]]
+my preferences are [3 7 6 5 4 2 8 1]
+my preferred plan is then 2 containing the decisions [p1 e1 m2]
+given that my jurisdiction is M my choice associated with my jurisdiction is m2
+the remaining plans after my decisions are [[2 [p1 e1 m2]]]
+my final choice is [m2 [2]]
+The outcome of the strategic decision making was neutral, meaning that the sincere outcome '[m2 [2]]' is the same as the strategic one: '[m2 [2]]'
+___________________________________________________________________________
+START OF EXPERIMENT 1
+[name, position, jurisdiction, behavoiur] :[[Political-specialist Economic-specialist; 2; 0 P sincere] [Military-specialist nobody; 0; 0 M sincere] [Economic-specialist Military-specialist; 1; 0 E strategic]]
+I am the operator agent Political-specialist
+I am picking non- strategically based on my preferences [2 3 5 6 7 1 8 4]
+Choosing the most preferred plan 2
+Passing on my choice and the remaining plans [p1 [1 2 3 4]]
+______________Strategic thinking starts here_________________________________________________________________
+*) Exploring-scenarios: I am the strategic agent Economic-specialist, exploring scenarios to decide strategically.
+I am agent Economic-specialist finding the sincere choice
+my preferences are [7 6 1 3 8 5 4 2]
+my options before processing are [[p1 [1 2 3 4]]]
+my options after processing are [1 2 3 4] these are also the list of remaining plans
+the sincere option found is 1
+==========================>
+>>>>  evaluating option 1
+==========================>
+   after processing the option is [e1 [1 2]]
+--------------------------------------------> projecting: the option [e1 [1 2]]
+-----------------> if the option is [e1 [1 2]], organizational outcome is: [m2 [2]]
+==========================>
+>>>>  evaluating option 2
+==========================>
+   after processing the option is [e1 [1 2]]
+--------------------------------------------> projecting: the option [e1 [1 2]]
+-----------------> if the option is [e1 [1 2]], organizational outcome is: [m2 [2]]
+==========================>
+>>>>  evaluating option 3
+==========================>
+   after processing the option is [e2 [3 4]]
+--------------------------------------------> projecting: the option [e2 [3 4]]
+-----------------> if the option is [e2 [3 4]], organizational outcome is: [m1 [3]]
+==========================>
+>>>>  evaluating option 4
+==========================>
+   after processing the option is [e2 [3 4]]
+--------------------------------------------> projecting: the option [e2 [3 4]]
+-----------------> if the option is [e2 [3 4]], organizational outcome is: [m1 [3]]
+Finalizing strategic reasoning:
+I am agent Economic-specialist, comparing the options-outcomes [[1 2] [2 2] [3 3] [4 3]] with my preferences [7 6 1 3 8 5 4 2]
+The best options is [3 3]
+The strategic outcome was: 3, with a rank 3 whereas the sincere outcome was: 2, with a rank 7
+my preferences are: [7 6 1 3 8 5 4 2]
+Did the strategic behaviour help to achieve a more desireable outcome? true
+This is the input I am providing as a strategist to my manager via the structural link: [e2 [3 4]]
+______________Strategic thinking ends here_____________________________________________________________________________
+___
+I am agent Military-specialist, processing the inputs [[e2 [3 4]]]
+______________________
+I am agent Military-specialist
+the input plans were[[e2 [3 4]]]
+the remaining plans are  [[3 [p1 e2 m1]] [4 [p1 e2 m2]]]
+my preferences are [3 7 6 5 4 2 8 1]
+my preferred plan is then 3 containing the decisions [p1 e2 m1]
+given that my jurisdiction is M my choice associated with my jurisdiction is m1
+the remaining plans after my decisions are [[3 [p1 e2 m1]]]
+my final choice is [m1 [3]]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> the outcome based on the sicere decision would have been [m2 [2]]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> the actual autcome was [m1 [3]]
+___________________________________________________________________________
+START OF EXPERIMENT 2
+[name, position, jurisdiction, behavoiur] :[[Political-specialist Military-specialist; 2; 0 P strategic] [Military-specialist Economic-specialist; 1; 0 M sincere] [Economic-specialist nobody; 0; 0 E sincere]]
+______________Strategic thinking starts here_________________________________________________________________
+*) Exploring-scenarios: I am the strategic agent Political-specialist, exploring scenarios to decide strategically.
+my options after processing are [2 3 5 6 7 1 8 4] these are also the list of remaining plans
+the sincere option found is 2
+==========================>
+>>>>  evaluating option 2
+==========================>
+   after processing the option is [p1 [1 2 3 4]]
+--------------------------------------------> projecting: the option [p1 [1 2 3 4]]
+-----------------> if the option is [p1 [1 2 3 4]], organizational outcome is: [e1 [1]]
+==========================>
+>>>>  evaluating option 3
+==========================>
+   after processing the option is [p1 [1 2 3 4]]
+--------------------------------------------> projecting: the option [p1 [1 2 3 4]]
+-----------------> if the option is [p1 [1 2 3 4]], organizational outcome is: [e1 [1]]
+==========================>
+>>>>  evaluating option 5
+==========================>
+   after processing the option is [p2 [5 6 7 8]]
+--------------------------------------------> projecting: the option [p2 [5 6 7 8]]
+-----------------> if the option is [p2 [5 6 7 8]], organizational outcome is: [e2 [7]]
+==========================>
+>>>>  evaluating option 6
+==========================>
+   after processing the option is [p2 [5 6 7 8]]
+--------------------------------------------> projecting: the option [p2 [5 6 7 8]]
+-----------------> if the option is [p2 [5 6 7 8]], organizational outcome is: [e2 [7]]
+==========================>
+>>>>  evaluating option 7
+==========================>
+   after processing the option is [p2 [5 6 7 8]]
+--------------------------------------------> projecting: the option [p2 [5 6 7 8]]
+-----------------> if the option is [p2 [5 6 7 8]], organizational outcome is: [e2 [7]]
+==========================>
+>>>>  evaluating option 1
+==========================>
+   after processing the option is [p1 [1 2 3 4]]
+--------------------------------------------> projecting: the option [p1 [1 2 3 4]]
+-----------------> if the option is [p1 [1 2 3 4]], organizational outcome is: [e1 [1]]
+==========================>
+>>>>  evaluating option 8
+==========================>
+   after processing the option is [p2 [5 6 7 8]]
+--------------------------------------------> projecting: the option [p2 [5 6 7 8]]
+-----------------> if the option is [p2 [5 6 7 8]], organizational outcome is: [e2 [7]]
+==========================>
+>>>>  evaluating option 4
+==========================>
+   after processing the option is [p1 [1 2 3 4]]
+--------------------------------------------> projecting: the option [p1 [1 2 3 4]]
+-----------------> if the option is [p1 [1 2 3 4]], organizational outcome is: [e1 [1]]
+Finalizing strategic reasoning:
+I am agent Political-specialist, comparing the options-outcomes [[2 1] [3 1] [5 7] [6 7] [7 7] [1 1] [8 7] [4 1]] with my preferences [2 3 5 6 7 1 8 4]
+The best options is [5 7]
+The strategic outcome was: 7, with a rank 4 whereas the sincere outcome was: 1, with a rank 5
+my preferences are: [2 3 5 6 7 1 8 4]
+Did the strategic behaviour help to achieve a more desireable outcome? true
+This is the input I am providing as a strategist to my manager via the structural link: [p2 [5 6 7 8]]
+______________Strategic thinking ends here_____________________________________________________________________________
+___
+I am agent Military-specialist, processing the inputs [[p2 [5 6 7 8]]]
+______________________
+I am agent Military-specialist
+the input plans were[[p2 [5 6 7 8]]]
+the remaining plans are  [[5 [p2 e1 m1]] [6 [p2 e1 m2]] [7 [p2 e2 m1]] [8 [p2 e2 m2]]]
+my preferences are [3 7 6 5 4 2 8 1]
+my preferred plan is then 7 containing the decisions [p2 e2 m1]
+given that my jurisdiction is M my choice associated with my jurisdiction is m1
+the remaining plans after my decisions are [[5 [p2 e1 m1]] [7 [p2 e2 m1]]]
+my final choice is [m1 [5 7]]
+___
+I am agent Economic-specialist, processing the inputs [[m1 [5 7]]]
+______________________
+I am agent Economic-specialist
+the input plans were[[m1 [5 7]]]
+the remaining plans are  [[5 [p2 e1 m1]] [7 [p2 e2 m1]]]
+my preferences are [7 6 1 3 8 5 4 2]
+my preferred plan is then 7 containing the decisions [p2 e2 m1]
+given that my jurisdiction is E my choice associated with my jurisdiction is e2
+the remaining plans after my decisions are [[7 [p2 e2 m1]]]
+my final choice is [e2 [7]]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> the outcome based on the sicere decision would have been [e1 [1]]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> the actual autcome was [e2 [7]]

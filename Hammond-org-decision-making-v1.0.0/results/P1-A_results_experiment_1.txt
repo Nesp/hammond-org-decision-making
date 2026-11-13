@@ -1,0 +1,12 @@
+___________________________________________________________________________
+START OF EXPERIMENT 0
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Manager-A; 2; 0 s t  sincere] [Operator-2 Manager-A; 2; 1 u v  sincere] [Operator-3 Manager-B; 2; 2  w x sincere] [Operator-4 Manager-B; 2; 3 y z sincere] [Manager-A Director;  1; 0 subs sincere] [Manager-B Director; 1; 1 subs sincere] [Director nobody; 0; 0 subs sincere]]
+I am agent Manager-B checking the inputs from my subordinates: [y w]
+I am agent Manager-A checking the inputs from my subordinates: [s v]
+I am agent Director checking the inputs from my subordinates: [s y]
+___________________________________________________________________________
+START OF EXPERIMENT 1
+[name, position, jurisdiction, behavoiur] :[[Operator-1 Manager-A; 2; 0 s t  sincere] [Operator-2 Manager-B; 2; 2 u v sincere] [Operator-3 Manager-A; 2; 1 w x sincere] [Operator-4 Manager-B; 2; 3 y z sincere] [Manager-A Director; 1; 0 subs sincere] [Manager-B Director; 1; 1 subs sincere] [Director nobody; 0; 0 subs sincere]]
+I am agent Manager-B checking the inputs from my subordinates: [v y]
+I am agent Manager-A checking the inputs from my subordinates: [w s]
+I am agent Director checking the inputs from my subordinates: [w v]
