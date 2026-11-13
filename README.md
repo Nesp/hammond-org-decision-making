@@ -6,7 +6,7 @@ Hammond’s work advances a series of propositions, some of which are developed 
 The resulting model provides the foundation for a subsequent theoretical model designed to systematically explore the parameter space. Future research using this model will enable a more thorough investigation of Hammond’s theory and provide a basis for extending, and potentially challenging, the theoretical propositions he introduced.
 
 ## Instruction for use
-1. Download "Hammond-org-decision-making"
+1. Download "Hammond-org-decision-making-v1.0.0"
 2. Navigate to "code"
 3. Choose which Hammond experiment to replicate via the "Replicate-hammond-experiment" drop-down list. 
 4. Load the experiment with the "Load-Hammond-experiment" button. The software will upload the experiment from the "Data" folder. 
